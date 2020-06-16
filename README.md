@@ -8,7 +8,7 @@ We will be exploring clustering techniques to group our documents into common to
 
 The goal of clustering is to determine the internal grouping in a set of unlabeled data. But how to decide what constitutes a good cluster? While there is no absolute “best” criterion, their are many different methods one can use to refine a clustering method to one that produces good results. In our case we have various articles which we would like to cluster into relevant topics.
 
-Consequently, it is the user who should supply this criterion, in such a way that the result of the clustering will suit their needs.
+Consequently, it is the user who should supply this criterion, in such a way that the result of the clustering will suit their needs. A note is that these images and dendrogram graphs maybe hard to see so I have included two python application files in the source directory. It is best to run these to output images with the ability to zoom in on the particular article or results to gauge the success of each clustering method.
 
 
 # Introduction
@@ -276,3 +276,11 @@ The dendrogram plotted:
 
 We will most likely use a cosine similiarity, as it is best suited do to its cyclical nature. It can give value based on how close and far away each article seems from one another.
 
+
+# Inspect the dendrogram with the words from the articles
+
+Now we will inspect the final categorized object:
+
+![jaccard](images/words_articles.png)
+
+Now we have created an unsupervised clustering method of categorizing articles by a key word. This can now be adapted for any number of filtering use cases.
