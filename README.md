@@ -1,6 +1,6 @@
 # Centroids from K-Means
 
-By Shaunil Maharaj test
+By Shaunil Maharaj
 
 ## Overview -- Unsupervised learning: Discovering Groups (Clustering)
 
