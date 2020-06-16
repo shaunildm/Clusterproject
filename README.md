@@ -1,5 +1,7 @@
 # Centroids from K-Means
 
+By Shaunil Maharaj
+
 ## Overview -- Unsupervised learning: Discovering Groups (Clustering)
 
 We will be exploring clustering techniques to group our documents into common topics based on similarity. We will use a data set of articles published by the [New York Times](nytimes.com).
