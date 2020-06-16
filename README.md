@@ -39,16 +39,22 @@ The inverse document frequency is defined in terms of the document frequency as
 $idf(term,corpus) = \log{\frac{1}{df(term,corpus)}}$.
 
 
+
+
 TF-IDF is an acronym for the product of two parts: the term frequency tf and what is called the inverse document frequency idf. The term frequency is just the counts in a term frequency vector. 
 
 tf-idf $ = tf(term,document) * idf(term,corpus)$
 
+
+
 Our NLP pipeline will look something like this, with sklearn library handling all these processeses for us:
+
 
 ![kmean](images/pw1.png)
 
 
 # Procedure
+
 
 ## Kmeans
 
